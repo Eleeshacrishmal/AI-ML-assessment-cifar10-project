@@ -1,0 +1,92 @@
+[
+  {
+    "name": "width_narrow_16_32",
+    "display_name": "Narrow CNN",
+    "group": "width",
+    "conv_layers": 2,
+    "filters": [
+      16,
+      32
+    ],
+    "trainable_parameters": 25578,
+    "best_epoch": 12,
+    "best_val_accuracy": 0.6934,
+    "final_val_accuracy": 0.678,
+    "training_seconds": 247.0555037999875
+  },
+  {
+    "name": "width_baseline_32_64",
+    "display_name": "Baseline-width CNN",
+    "group": "width",
+    "conv_layers": 2,
+    "filters": [
+      32,
+      64
+    ],
+    "trainable_parameters": 60362,
+    "best_epoch": 6,
+    "best_val_accuracy": 0.7144,
+    "final_val_accuracy": 0.6786,
+    "training_seconds": 262.2103903000243
+  },
+  {
+    "name": "width_wide_64_128",
+    "display_name": "Wide CNN",
+    "group": "width",
+    "conv_layers": 2,
+    "filters": [
+      64,
+      128
+    ],
+    "trainable_parameters": 157578,
+    "best_epoch": 6,
+    "best_val_accuracy": 0.7292,
+    "final_val_accuracy": 0.7002,
+    "training_seconds": 265.42302620003466
+  },
+  {
+    "name": "depth_shallow_1conv_32",
+    "display_name": "Shallow CNN",
+    "group": "depth",
+    "conv_layers": 1,
+    "filters": [
+      32
+    ],
+    "trainable_parameters": 6026,
+    "best_epoch": 20,
+    "best_val_accuracy": 0.6448,
+    "final_val_accuracy": 0.6448,
+    "training_seconds": 238.36694620002527
+  },
+  {
+    "name": "depth_medium_2conv_32",
+    "display_name": "Medium CNN",
+    "group": "depth",
+    "conv_layers": 2,
+    "filters": [
+      32,
+      32
+    ],
+    "trainable_parameters": 15274,
+    "best_epoch": 18,
+    "best_val_accuracy": 0.7092,
+    "final_val_accuracy": 0.7024,
+    "training_seconds": 253.04309849999845
+  },
+  {
+    "name": "depth_deep_3conv_32",
+    "display_name": "Deep CNN",
+    "group": "depth",
+    "conv_layers": 3,
+    "filters": [
+      32,
+      32,
+      32
+    ],
+    "trainable_parameters": 24522,
+    "best_epoch": 17,
+    "best_val_accuracy": 0.733,
+    "final_val_accuracy": 0.7158,
+    "training_seconds": 249.38278410001658
+  }
+]

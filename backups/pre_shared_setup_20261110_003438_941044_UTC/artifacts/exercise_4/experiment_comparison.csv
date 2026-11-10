@@ -1,0 +1,7 @@
+name,display_name,group,conv_layers,filters,trainable_parameters,best_epoch,best_val_accuracy,final_val_accuracy,training_seconds
+depth_deep_3conv_32,Deep CNN,depth,3,"(32, 32, 32)",24522,17,0.733,0.7158,249.38278410001658
+depth_medium_2conv_32,Medium CNN,depth,2,"(32, 32)",15274,18,0.7092,0.7024,253.04309849999845
+depth_shallow_1conv_32,Shallow CNN,depth,1,"(32,)",6026,20,0.6448,0.6448,238.36694620002527
+width_baseline_32_64,Baseline-width CNN,width,2,"(32, 64)",60362,6,0.7144,0.6786,262.2103903000243
+width_narrow_16_32,Narrow CNN,width,2,"(16, 32)",25578,12,0.6934,0.678,247.0555037999875
+width_wide_64_128,Wide CNN,width,2,"(64, 128)",157578,6,0.7292,0.7002,265.42302620003466
