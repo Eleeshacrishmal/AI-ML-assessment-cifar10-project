@@ -191,5 +191,22 @@
       "f1-score": 0.5179024087671069,
       "support": 10000.0
     }
+  },
+  "best_validation_loss": {
+    "epoch": 5,
+    "selection_metric": "validation_loss",
+    "best_validation_loss": 1.4220939081192017,
+    "train": {
+      "loss": 1.0965251607894897,
+      "accuracy": 0.6124666666666667
+    },
+    "validation": {
+      "loss": 1.4220939081192017,
+      "accuracy": 0.505
+    },
+    "test": {
+      "loss": 1.4295426263809203,
+      "accuracy": 0.509
+    }
   }
 }

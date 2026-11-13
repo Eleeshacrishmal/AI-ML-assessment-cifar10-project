@@ -1,0 +1,1 @@
+﻿{"status":"completed_with_postprocessing_repair","training_completed":true,"device":"cuda","note":"All configured training and one-time final test evaluations completed. The generated discussion cell was rerun from saved result variables after fixing NumPy boolean JSON serialization; no training or test evaluation was repeated."}
